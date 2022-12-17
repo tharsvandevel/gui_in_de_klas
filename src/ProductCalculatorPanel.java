@@ -2,6 +2,13 @@ import javax.swing.*;
 
 public class ProductCalculatorPanel {
     private JPanel panel1;
+    private JButton berekenButton;
+    private JTextPane uitkomstTextPane;
+    private JTextPane getal2TextPane;
+    private JTextPane getal1TextPane;
+    private JTextField textField1;
+    private JTextField textField2;
+    private JTextField textField3;
 
     public void run() {
         JFrame frame = new JFrame();
